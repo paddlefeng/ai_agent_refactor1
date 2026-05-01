@@ -46,20 +46,6 @@ pip install -r requirements.txt
 bash
 python app.py
 
-项目结构
-
-ai_agent_refactor/
-├── agents/                 核心智能体实现目录
-│   ├── __init__.py         模块导出文件
-│   ├── analyzer.py         代码分析智能体
-│   ├── planner.py          任务规划智能体
-│   ├── refactor.py         代码重构智能体
-│   ├── tester.py           测试验证智能体
-│   └── reporter.py         报告生成智能体
-├── app.py                  系统主入口文件
-├── sample_code.py          待重构示例代码
-└── test_sample.py          示例代码对应的单元测试用例
-
 使用指南
  基础使用
 1. 将 `sample_code.py` 中的内容替换为你需要重构的代码
